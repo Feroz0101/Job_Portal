@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar start -->
+        <section class="menu">
+            <nav class="navbar navbar-expand-lg shadow-sm fixed-top bg-light">
+                <div class="container">
+                    <img class="border border-dark rounded-5 " src="images/logo.png" alt="ICON" srcset="">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav  m-auto mb-2 mb-lg-0  ">
+                            <li class="nav-item ">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Jobs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contuct</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- NAvbar End -->
+        <!-- Banner Start -->
+        <section class="banner">
+            <div class="carousel-section ">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/banner.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <h2 class="fw-bold">The Easiest Way to Get Your New Job</h2>
+                                <h4>Find Jobs, Employment & Career Opportunities</h4>
+                                <form class="d-flex search mx-auto " role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Enter Your Job Tittle" aria-label="Search">
+                                    <button class="btn px-5  text-light btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/cse.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption  d-md-block">
+                                <h2 class="fw-bold">The Easiest Way to Get Your New Job</h2>
+                                <h4>Find Jobs, Employment & Career Opportunities</h4>
+                                <form class="d-flex search mx-auto " role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Enter Your Job Tittle" aria-label="Search">
+                                    <button class="btn px-5  text-light btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/enginnering.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption  d-md-block">
+                                <h2 class="fw-bold">The Easiest Way to Get Your New Job</h2>
+                                <h4>Find Jobs, Employment & Career Opportunities</h4>
+                                <form class="d-flex search mx-auto " role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Enter Your Job Tittle" aria-label="Search">
+                                    <button class="btn px-5  text-light btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
+    </header>
+    <!-- Categories start -->
+    <div class="categories ">
+        <h1 class="fw-bold text-center mt-5">Popular Categories</h1>
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
+                      alt="Skyscrapers" />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary ">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
+                        alt="Skyscrapers" />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to
+                          additional content. This content is a little bit longer.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
+                        alt="Skyscrapers" />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to
+                          additional content. This content is a little bit longer.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+                      alt="Los Angeles Skyscrapers" />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+                      alt="Palm Springs Road" />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show
+                        that equal height action.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top"
+                        alt="Skyscrapers" />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to
+                          additional content. This content is a little bit longer.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
+                        alt="Los Angeles Skyscrapers" />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
+                        alt="Palm Springs Road" />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to
+                          additional content. This card has even longer content than the first to show
+                          that equal height action.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+                
+  
+              </div>            
+            
+        </div>
+    </div>
+
+    <!-- categories End -->
+
+    <!-- Demo -->
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap js  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
