@@ -20,8 +20,7 @@ header>section>nav>div>img
 
 .carousel-item{
     background-size: cover;
-    height: 80vh;
-    display: block;
+    height: 80vh;   
 }
 
 .carousel-item::before
@@ -37,14 +36,6 @@ header>section>nav>div>img
     opacity: 0.7;
 }
 
-.carousel-caption
-{
-    
-    display: block;
-    
-    
-
-}
 .carousel-caption h2
 {
     font-size: 50px;
@@ -68,14 +59,37 @@ header>section>nav>div>img
     height: 28rem;
     justify-content: center;
     
+    
 }
 
-
-
+.card:hover
+{
+    box-shadow: 10px 10px 20px 1px #e2e3e2;
+    transition: .6s;
+}
 
 
 
 /* categories End */
 
+/* reg start */
+
+.reg h3
+{
+    font-size: 18px;
+}
 
 
+/* reg End */
+
+.company h4
+{
+    font-size: 20px;
+}
+
+.picture img
+{
+    max-width: 110px;
+    margin: 40px;
+
+}
